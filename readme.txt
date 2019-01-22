@@ -32,7 +32,7 @@ yarn add --dev  babel-plugin-transform-class-properties
     "parcel-bundler": "1.5.0"
   },
  "scripts": {
-   "start": "parcel src/index.html",
+   "start": "parcel public/index.html",
    "build": "parcel build src/index.js"
  }
 }
