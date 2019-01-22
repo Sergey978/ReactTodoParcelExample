@@ -9,7 +9,7 @@ yarn add --dev parcel-bundler babel-preset-env babel-preset-react
 yarn add --dev babel-plugin-transform-object-rest-spread
 
 и плагин трансформации свойств класса
-add --dev  babel-plugin-transform-class-properties
+yarn add --dev  babel-plugin-transform-class-properties
 
 создать файл .babelrc
 
