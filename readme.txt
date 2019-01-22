@@ -31,10 +31,10 @@ add --dev  babel-plugin-transform-class-properties
     "babel-preset-react": "6.24.1",
     "parcel-bundler": "1.5.0"
   },
-+ "scripts": {
-+   "start": "parcel src/index.html",
-+   "build": "parcel build src/index.js"
-+ }
+ "scripts": {
+   "start": "parcel src/index.html",
+   "build": "parcel build src/index.js"
+ }
 }
 
 запуск сервера:
