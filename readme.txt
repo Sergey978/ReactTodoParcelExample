@@ -5,13 +5,13 @@ cd app-react-folder
 yarn add react react-dom
 yarn add --dev parcel-bundler babel-preset-env babel-preset-react
 
-добавить плагины спреад оператор  
+добавить плагины спреад оператор.  
 yarn add --dev babel-plugin-transform-object-rest-spread
 
-и плагин трансформации свойств класса
+и плагин трансформации свойств класса.
 yarn add --dev  babel-plugin-transform-class-properties
 
-isomorphic-fetch
+Fetch for node and Browserify isomorphic-fetch.
 yarn add --dev  isomorphic-fetch es6-promise
 
 создать файл .babelrc
