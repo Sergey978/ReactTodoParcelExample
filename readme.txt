@@ -11,8 +11,10 @@ yarn add --dev babel-plugin-transform-object-rest-spread
 и плагин трансформации свойств класса
 yarn add --dev  babel-plugin-transform-class-properties
 
-создать файл .babelrc
+isomorphic-fetch
+yarn add --dev  isomorphic-fetch es6-promise
 
+создать файл .babelrc
 записать в него пресеты и плагины для babel
 
 {
