@@ -11,8 +11,15 @@ yarn add --dev babel-plugin-transform-object-rest-spread
 и плагин трансформации свойств класса.
 yarn add --dev  babel-plugin-transform-class-properties
 
-Fetch for node and Browserify isomorphic-fetch.
-yarn add --dev  isomorphic-fetch es6-promise
+You will need a polyfill for browser support and have the regeneratorRuntime.
+yarn add -D babel-plugin-transform-regenerator
+yarn add babel-polyfill
+
+And finally import the polyfill in your top-most container
+..
+import 'babel-polyfill';
+..
+
 
 создать файл .babelrc
 записать в него пресеты и плагины для babel
@@ -20,9 +27,10 @@ yarn add --dev  isomorphic-fetch es6-promise
 {
   "presets": ["env", "react"],
   "plugins": ["transform-object-rest-spread",
-			"transform-class-properties"]
+			"transform-class-properties",
+                            "transform-regenerator"
+]
 }
-
 В package.json  прописать скрипты для старта и сборки:
 
 
