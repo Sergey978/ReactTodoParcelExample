@@ -14,10 +14,12 @@ yarn add --dev  babel-plugin-transform-class-properties
 You will need a polyfill for browser support and have the regeneratorRuntime.
 yarn add -D babel-plugin-transform-regenerator
 yarn add babel-polyfill
+yarn add -D isomorphic-fetch es6-promise
 
 And finally import the polyfill in your top-most container
 ..
 import 'babel-polyfill';
+import "isomorphic-fetch";
 ..
 
 
